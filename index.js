@@ -2,9 +2,12 @@
 
 var PORT = process.env.PORT || 8080;
 var http = require('http');
+var cors = require('cors');
 var express = require('express');
 var app = express();
 var appId = process.env.APP_ID;
+
+app.use(cors());
 
 app.get('/', function (req, res) {
   if (req.query.lat && req.query.lon) {
