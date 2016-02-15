@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/lcneves/yourweather/issues"
   },
-  "homepage": "https://github.com/lcneves/yourweather#readme"
+  "homepage": "https://github.com/lcneves/yourweather#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
 }
